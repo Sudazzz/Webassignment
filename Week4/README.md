@@ -1,38 +1,8 @@
-<html>
+The concept of my website is to develop my portfolio website. I prefer my website to be visual oriented since my professional interest is towards the visual aspect, which includes photography, films, and design. So there is not a lot of text on my website, words may only be used to describe my projects, contact information, and introduction to myself. I would like to create a multiple page website. I would like to create phone-based, computer-based, and laptop-based versions using @media. And I prefer to present my works vertically/horizontally when you scroll down, which like this website shows: https://www.pixpa.com/example/preview/?designid=215&url=https://www.luluandisabelle.com.
+And people can click pictures to see more details about the project. 
 
-  <head>
-    <!--   the head is where we link to external scripts, stylesheets, fonts, and internal page information-->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+Minimal style, basically black and white, in order to make work to stand out. And for the head and menu bar, I feel the title of my page should be in the center and the menu should be on the right side. I learned it is my ideal choice from this website: http://www.takashikawashima.com/.
 
-    <!--   this is the title of our page-->
-     <title>Space Cats</title>
+I divide my website into 5 sections, which are <home, design, photography, film, contact>. And I have learnt how to use interactive functions (like hover, click), and how to frame my website. I also learned how to use google fonts in my website as well. 
 
-  </head>
-
-  <body>
-    <!--This is where we add content that we want the user to see-->
-
-    <!--heading-->
-    <h1>Here's the title.</h1>
-
-    <p>Here is some paragraph text. It's longer than the title. Amazing.</p>
-
-    <!--image-->
-    <img src="https://render.fineartamerica.com/images/rendered/default/poster/10/8/break/images/artworkimages/medium/1/space-cat-with-taco-and-pizza-johnnie-art.jpg" alt="cat in space with taco and pizza slice">
-
-    <p class="redtext">Here is some paragraph text. It's longer than the title. Amazing.</p>
-
-    <br>
-    <!--add a link to the page-->
-    <a href="https://gizmodo.com/the-secret-history-of-the-first-cat-in-space-1791663725">The Secret History of the First Cat in Space</a>
-
-    <p>Here is some paragraph text. It's longer than the title. Amazing.</p>
-
-    <p>Here is some paragraph text. It's longer than the title. Amazing.</p>
-
-    <p>Here is some paragraph text. It's longer than the title. Amazing.</p>
-
-    <h2 class="redtext">This is a second title...</h2>
-
-  </body>
-  </html>
+For the skills I have not grasped yet, I would like to learn how to align different images horizontally (for my photography page) in other types of screens and how to insert video in the website. And I also need to learn how to create urls for each of my pages, since right now I have no url for other pages that I can switch to. 
