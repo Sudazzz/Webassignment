@@ -1,0 +1,132 @@
+
+		* {
+			box-sizing: border-box;
+		}
+
+		h1{
+			margin: 1%;
+			padding: 0px;
+			text-align: center;
+			font-size: 500%; 
+			font-family: "Caveat", cursive;
+			text-align: center; 
+			color: whitesmoke; 
+		}
+
+		p{
+			font-family: 'Nanum Myeongjo', serif;
+			padding: 0px;
+			margin: 0px; 
+			color: whitesmoke; 
+			font-size: 140%; 
+			text-align: center;
+		}
+
+		body{
+			background-color: red;
+			margin: 0;
+		}
+
+		nav ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: none;
+		}
+
+		nav ul li{
+			font-family: 'Karla', sans-serif;
+			float: right;
+		}
+
+		nav ul li a {
+			display: block;
+  			color: white;
+  			text-align: center;
+  			font-size: 100%;
+  			padding: 5px;
+  			text-decoration: none;
+			}
+
+		img{
+			border: 3px solid ghostwhite;
+			padding-block: 4%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width:70%;
+			height:70%;
+		}
+		
+
+		img:hover{
+			filter: blur(4px);
+			transition: all 1s ease;
+			cursor: hover;
+			transform: width:75%;
+		}
+
+		a:link {
+			color: gray;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:visited {
+		 color: darkred;
+		 background-color: transparent;
+		 text-decoration: none;
+		}
+
+		a:hover {
+			text-transform: bold;
+			color: lightgray;
+			background-color: transparent;
+			text-decoration: underline;
+			cursor: hover;
+		}
+
+		bottom{
+			padding: 5%, 5%;
+			border: 1% solid antiquewhite;
+			border-radius:10px;
+			text-transform: uppercase;
+			font-family: ;
+		}
+
+		bottom:hover{
+			background-color: black;
+			box-shadow: 1%;
+			cursor: hover;
+		}
+
+		.container{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+
+		.thumb{
+			position: relative;
+			flex-basis: 30%;
+		}
+
+		@media screen and (max-width:1024px){
+			.container{
+				flex-direction: row;
+			}
+
+			.thumb{
+				flex-basis: 45%;
+				flex-grow: 0;
+				flex-shrink: 0;
+				width: 45%;
+			}
+		}
+
+		@media screen and (max-width:767px){
+			.container{
+				flex-direction: column;
+			}
+		}
