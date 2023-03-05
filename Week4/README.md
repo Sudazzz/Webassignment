@@ -7,6 +7,3 @@ Minimal style, basically black and white, in order to make work to stand out. An
 I divide my website into 5 sections, which are <home, design, photography, film, contact>. And I have learnt how to use interactive functions (like hover, click), and how to frame my website. I also learned how to use google fonts in my website as well. 
 
 For the skills I have not grasped yet, I would like to learn how to align different images horizontally (for my photography page) in other types of screens and how to insert video in the website. And I also need to learn how to create urls for each of my pages, since right now I have no url for other pages that I can switch to. 
-=======
-
->>>>>>> a57f11ebd045ced03e1b87d7123c941ea4e6d554
