@@ -1,0 +1,101 @@
+* {
+box-sizing: border-box;
+}
+
+h1{
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	font-size: 500%; 
+	font-family: "Caveat", cursive;
+	text-align: center; 
+	color: whitesmoke; 
+}
+
+p{
+	font-family: 'Nanum Myeongjo', serif;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px; 
+	color: whitesmoke; 
+	font-size: 140%; 
+	text-align: center;
+}
+
+body{
+	margin: 0;
+}
+
+@media only screen and (min-width: 830px){
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: none;
+	font-family: 'Karla', sans-serif;
+}
+
+ul li a {
+	float: right;
+	text-align: center;
+	font-size: 100%;
+	display: block;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 830px){
+	ul {
+		position: relative;
+  		list-style-type: none;
+  		margin: 0;
+  		padding: 0;
+	}
+
+	ul li{
+		display: lock;
+  		vertical-align: middle;
+	}
+
+	ul li a{
+		vertical-align: middle;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        margin: 0 0 0 10px;
+	}
+}
+
+a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover, a:active{
+	color: darkgray;
+	background-color: transparent;
+	text-decoration: underline;
+	cursor: hover;
+}
+
+.container{
+	position: relative;
+}
+
+.button{
+	opacity:0;
+}
+
+img:hover + .button,.button:hover{
+	opacity: 100%;
+	display: block;
+	position: absolute;
+	font-size: 200%;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	bottom: 50%;
+}
