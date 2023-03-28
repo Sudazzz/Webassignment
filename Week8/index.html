@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Suda Zhao</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Kaushan+Script&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="photography.html">
+	<link rel="stylesheet" type="text/css" href="index.html">
+	<link rel="stylesheet" type="text/css" href="film.html">
+	<link rel="stylesheet" type="text/css" href="design.html">
+	<link rel="stylesheet" type="text/css" href="about.html">
+
+
+	<style type="text/css">
+
+		img{
+			border: 3px solid ghostwhite;
+			padding-block: 4%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width:80%;
+			height:80%;
+		}
+
+		img:hover {
+			filter: blur(3px);
+			transition: all 1s ease;
+			cursor: hover;
+		}
+
+		.container{
+			position: relative;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		.button{
+			display: block;
+			position: absolute;
+			font-size: 200%;
+			text-align: center;
+			top: 50%;
+			width: 100%;
+			bottom: 50%;
+			opacity:0;
+		}
+
+		.container:hover img:not(:hover){
+			filter: blur(3px);
+		}
+
+
+		@media only screen and (max-width: 820px){
+			/* for Ipad Air: 820, 1180; */
+			h1{
+				font-size: 350%;
+			}
+
+			P{
+				font-size: 120%;
+			}
+
+			img:hover{
+				filter: none;
+				cursor: pointer;
+			}
+
+			img:hover + .button,.button:hover{
+				display: block;
+				position: relative;
+				font-size: 140%;
+				text-align: center;
+				top: 50%;
+				width: 100%;
+				bottom: 50%;
+			}
+
+			.container:hover img:not(:hover){
+				filter: none;
+			}
+		}
+
+	</style>
+
+</head>
+
+<body style="background: black;">
+
+<main class="clearfix">
+
+	<h1>Suda Zhao</h1>
+	<p> <b>Film, Photography and Design</b></p>
+
+    <ul>
+		<li><a style="font-family: 'Arvo', serif;" href="about.html" >About</a></li>		
+		<li><a style="font-family: 'Arvo', serif;" href="design.html">Design</a></li>
+    	<li><a style="font-family: 'Arvo', serif;" href="film.html">Film</a></li>
+   		<li><a style="font-family: 'Arvo', serif;" href="photography.html">Photography</a></li>
+   		<li><a style="font-family: 'Arvo', serif;" href="index.html">Home</a></li>
+  	</ul>
+
+	<hr>
+
+	<div class="container">
+		<img src="homeIMG/photography.jpg" alt="photography.jpg">
+			<a style="color:whitesmoke; font-family: 'Arvo', serif;" href="photography.html" class = "button">Photography</a></div>
+	</div>
+
+
+	<div class="container">
+		<img src="homeIMG/film.jpg" alt="film.jpg">
+		<a style="color:whitesmoke; font-family: 'Arvo', serif;" href="film.html" class = "button">Film</a></div>
+	</div>
+
+	<div class="container">
+		<img src="homeIMG/design.jpg" alt="design.jpg">
+		<a style="color:whitesmoke; font-family: 'Arvo', serif;" href="design.html" class = "button">Design</a></div>
+	</div>
+
+	<hr>
+
+    <footer style="font-size: 10px; ">
+		<p style="color: blue;"> &#128008 <br> &copy Suda Zhao 2023</p>
+		<p style="color: blue;" a href="mailto:zhaoyuanhao5@gmai.com">zhaoyuanhao5@gmail.com</p>
+	</footer>
+
+	<script type="text/javascript">
+		function 
+		document.addEventListener('DOMContentLoaded', function(){
+			console.log('Home Page Successfully Loaded')
+		}
+
+	</script>
+</body>
+
+</html>
