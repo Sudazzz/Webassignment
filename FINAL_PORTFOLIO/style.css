@@ -26,6 +26,10 @@ body{
 	margin: 0;
 }
 
+hr.breakline {
+	 border-top: 1px dotted whitesmoke;
+}
+
 ul{
 	list-style-type: none;
 	margin: 0;
@@ -40,13 +44,13 @@ ul li a {
 	text-align: center;
 	font-size: 100%;
 	display: block;
-	color: white;
+	color: whitesmoke;
 	padding: 5px;
 	text-decoration: none;
 }
 
 a:link {
-	color: white;
+	color: whitesmoke;
 	background-color: transparent;
 	text-decoration: none;
 }
@@ -75,7 +79,7 @@ img:hover + .button,.button:hover{
 
 img{
 	border: 3px solid ghostwhite;
-	padding-block: 2%;
+	padding-block: 4%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
