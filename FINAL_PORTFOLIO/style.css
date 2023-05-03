@@ -99,17 +99,6 @@ img:hover {
 	margin-bottom: 20px;
 }
 
-.button{
-	display: block;
-	position: absolute;
-	font-size: 200%;
-	text-align: center;
-	top: 50%;
-	width: 100%;
-	bottom: 50%;
-	opacity:0;
-}
-
 .container:hover img:not(:hover){
 	filter: blur(3px);
 }
