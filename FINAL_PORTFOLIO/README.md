@@ -1,4 +1,4 @@
-[The Link Title A User Sees]: (http://sudazyh.com/)
+The Link Title A User Sees: (http://sudazyh.com/)
 Github documentation/code link: (https://github.com/Sudazzz/Webassignment/tree/main/FINAL_PORTFOLIO)
 
 Process Documentation:
